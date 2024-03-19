@@ -24,7 +24,7 @@ That means at any screen size, provided there's an artboard for it, the text wil
 
 That means we can do cool stuff very easily! Depending on the screen size, we can create fancy layouts meant specifically for that device.
 
-![[/attachments/20240319115126.png]]
+![](attachments/20240319115126.png)
 
 In the two graphics above, all the charts and text were positioned in Illustrator and available as an embeddable HTML file after processing. The map of India with small multiples morphs into a two columned grid because thats what makes most sense on mobile. **You don't have to depend on the development team to translate your innovative layouts to code** for most static charts and sections, you can take control of it yourself.
 
@@ -76,25 +76,25 @@ Time for the fun stuff. Graphics are designed in the same way as normal things y
 
 Do not let items bleed out of the artboard as the output will be cropped too. Scale things to fit it appropriately.
 
-![[/attachments/20240319150221.png]]
+![](attachments/20240319150221.png)
 
 You might feel like you need to add empty space around the chart because it feels visually right, but don't! This can be controlled in the development process and it is better if you keep your artwork full-bleed so that we don't add extra space later.
 
-![[/attachments/20240319150123.png]]
+![](attachments/20240319150123.png)
 
 If you have artwork that doesn't fit the artboard width, make the artboard longer and scale the art up.
 
-![[/attachments/20240319153915.png]]
+![](attachments/20240319153915.png)
 
 Remove unused artboards if you know that your chart will remain the same for all screen sizes. This is usually only for `xs` and `sm` artboards.
 
-![[/attachments/20240319160701.png]]
+![](attachments/20240319160701.png)
 
 But this also means that you can save time in designing the right amount of artboards! If your chart doesn't ever go beyond the `lg` size, then stop there and don't make it for `xl`.
 
 In certain cases, for an odd width like 330px which doesn't go into the full width page, then you _may_ delete all other artboards and create a new one only for that size. This happens when you want to make a small crown illustration for the top of the page, or the embed goes into a narrow rail to the left or right of the page. An example is the sidebar graphic shown below.
 
-![[/attachments/20240319161235.png]]
+![](attachments/20240319161235.png)
 
 ### Text sizes
 
@@ -119,7 +119,7 @@ Illustrator also has two types of text objects that you may use - **point and ar
 - **Area Text**:
   - Used for text that needs to fit within a specific space. It wraps text automatically to fit the shape or box you define.
 
-![[/attachments/20240319163821.png]]
+![](attachments/20240319163821.png)
 
 ### Embedding & linking images
 
@@ -228,7 +228,7 @@ This all ai2svelte artboards which have patterns like `#g-frame-1-xs` etc., an
 
 Adding a subtle white drop-shadow (or black, if that is needed) is very useful in making the text labels legible when there is a lot going on in the background.
 
-![[/attachments/20240319183657.png]]
+![](attachments/20240319183657.png)
 
 You can add it for all labels in one go:
 
